@@ -1,0 +1,11 @@
+{
+    "apps": [
+      {
+        "name":"backend",
+        "script":"server.py",
+        "interpreter" : "python3",
+        "interpreter_args": "-u"
+      }
+    ]
+  }
+  

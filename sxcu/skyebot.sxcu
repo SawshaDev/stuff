@@ -1,0 +1,10 @@
+{
+  "Name": "cdn.skyebot.dev",
+  "DestinationType": "ImageUploader",
+  "RequestURL": "https://cdn.skyebot.dev/upload",
+  "FileFormName": "image",
+  "Arguments": {
+    "secret_key": "SawshaIsCute"
+  },
+  "URL": "https://cdn.skyebot.dev/u/$json:filename$$json:extension$"
+}

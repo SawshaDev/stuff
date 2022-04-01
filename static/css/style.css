@@ -1,0 +1,173 @@
+body {
+    background: #36393f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+a {
+    text-shadow: 2px 2px 2px grey;
+    color: white;
+    text-decoration: none;
+}
+
+body {}
+
+h1 {
+    color: #af812c;
+}
+
+.clickable {
+    background: #3981b4;;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+    .clickable:hover {
+            background-color: #24587e;
+    }
+
+    .clickable:active {
+        background-color: #3880c9;
+    }
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 10vh;
+    flex-wrap: wrap;
+}
+
+body {
+    overflow:hidden;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#main-content {
+display: flex;
+color: white;
+width: 100%;
+flex-direction: column;
+align-items: center;
+overflow-y:scroll;
+overflow: hidden;
+overflow-x: hidden;
+}
+
+
+
+span {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+
+
+#callimarie-logo {
+    padding-left: 15px;
+    background-size: 50px;
+    color: white;
+    text-decoration: underline;
+    
+}
+span {
+    font-style: inherit;
+    font-weight: inherit;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    color: #7289da;
+    cursor: pointer;
+    text-decoration: none;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+};
+
+
+.function {
+    text-align: center;
+    font-family: "Lucida Console", Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace; 
+    color: #5d63c0;
+    font-style: bold;
+    font-size: 48px;
+}
+
+.footer {
+
+    padding: 1rem 1.5rem;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    /* Height of the footer*/ 
+    height: 60px;
+
+}
+
+    .has-text-light {
+        color: #f5f5f5!important;
+    }
+
+
+body::-webkit-scrollbar {
+    width: 6px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #1F2421;
+}  /*i have no clue what this is tbh */
+
+body::-webkit-scrollbar-thumb {
+    background-color: #9CC5A1; /* color of the scroll thumb */
+    border-radius: 5px; /* roundness of the scroll thumb */
+}
+
+
+
+.card {
+    margin-top: 20px;
+    border-radius: 0;
+    background-color: var(--nb-colour);
+    height: fit-content !important;
+}
+
+.card > .card-title {
+    /* font-family: 'Noto Mono', sans-serif; */
+    margin: 0;
+    font-size: 25px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: rgb(140, 140, 140);
+}
+
+.card > .card-divider {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid 2px var(--bg-color);
+}
+
+.card > .card-custom-content {
+    padding-left: 20px;
+    /* font-family: 'Noah', sans-serif; */
+    text-align: left;
+    color: rgb(180, 180, 180);
+    font-size: 20px;
+}
